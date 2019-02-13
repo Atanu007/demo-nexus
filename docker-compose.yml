@@ -1,0 +1,13 @@
+version: "3"
+
+volumes:
+  nexus-data: {}
+
+services:
+  nexus:
+    image: sonatype/nexus3:latest
+    container_name: nexus
+    volumes:
+       - nexus-data:/nexus-data sonatype/nexus3
+    ports:
+       - "8081:8081"
