@@ -1,0 +1,6 @@
+
+Step_1:  docker pull sonatype/nexus3
+
+Step_2: create a directory nexus-data
+
+Step_3: use docker-compose to bring up the service for nexus
